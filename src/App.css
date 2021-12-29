@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  width: 100%;
+  background-color: white;
+}
+
+/********* FONTS ********/
+
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+/* to use this, font-family: 'Manrope', sans-serif; */
+
+@font-face {
+  font-family: "Neue Plak";
+  src: url("./assets/fonts/NeuePlak-ExtendedBold.woff") format("woff");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "NB International Mono";
+  src: url("./assets/fonts/NBInternationalMonoWebfont.woff") format("woff");
+}
