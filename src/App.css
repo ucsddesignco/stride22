@@ -26,3 +26,295 @@ body {
   font-family: "NB International Mono";
   src: url("./assets/fonts/NBInternationalMonoWebfont.woff") format("woff");
 }
+
+/********* Register ********/
+.register {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 6rem 8vw;
+  background-color: white;
+  color: black;
+}
+
+.register-left {
+  margin-right: 3rem;
+}
+
+.register h1 {
+  font-size: 2rem;
+  font-family: "Neue Plak";
+  font-weight: normal;
+  letter-spacing: 0.04rem;
+  margin-bottom: 1.25rem;
+  line-height: 120%;
+}
+
+.register p {
+  font-size: 1rem;
+  font-family: "Manrope";
+  letter-spacing: 0.02rem;
+  line-height: 170%;
+  margin-bottom: 1.25rem;
+}
+
+.register-graphic {
+  height: 320px;
+  width: 800px;
+  object-fit: contain;
+}
+
+.button-yellow {
+  display: flex;
+  background-color: #F5D34D;
+  height: 45px;
+  width: 225px;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.button-yellow p {
+  display: flex;
+  margin: auto;
+  font-size: 0.8rem;
+  font-family: "NB International Mono";
+  color: black;
+  text-transform: uppercase;
+}
+
+/********* Register Media Query ********/
+@media (max-width: 980px) {
+  .register {
+    flex-direction: column;
+  }
+  .register-left {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .register-graphic {
+    width: 100%; 
+    height: 100%;
+  }
+}
+
+/********* Attending ********/
+.attending {
+  display: flex;
+  flex-direction: column;
+  padding: 6rem 5vw;
+  background-color: #BBDEFB;
+  color: black;
+}
+
+.attending h1 {
+  font-size: 2rem;
+  font-family: "Neue Plak";
+  font-weight: normal;
+  letter-spacing: 0.04rem;
+  margin: 0 3vw 1.25rem 3vw;
+  line-height: 120%;
+}
+
+.attending-card {
+  display: flex;
+  justify-content: flex-end;
+  background-color: white;
+  margin: 3vw;
+  cursor: pointer;
+}
+
+.attending-image {
+  display: flex;
+  margin: 2rem auto;
+  height: 100px;
+  width: 200px;
+  object-fit: contain;
+}
+
+.cross-image {
+  display: flex;
+  position: absolute;
+  height: 12px;
+  width: 12px;
+  transform: rotate(135deg) translateX(2rem);
+}
+
+/********* Attending Modal ********/
+.m-background {
+  position: fixed;
+  background-color: black;
+  opacity: 0.5 !important;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+}
+
+.m-card {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  background-color: white;
+  height: 85vh;
+  width: 90vw;
+  top: 7.5vh;
+  left: 5vw;
+  overflow-y: scroll;
+}
+
+.m-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #263238;
+  padding: 1.25rem 2.5rem;
+}
+
+.m-top h2 {
+  font-size: 1.5rem;
+  font-family: "Neue Plak";
+  color: white;
+  font-weight: normal;
+}
+
+.m-bottom {
+  display: flex;
+  flex-direction: row;
+  margin: 1.25rem 2.5rem 2.5rem;
+}
+
+.m-left {
+  width: 50vw;
+  margin-right: 4rem;
+}
+
+.m-left p {
+  font-size: 1.1rem;
+  font-family: "Manrope";
+  color: #424242;
+  line-height: 170%;
+  letter-spacing: 0.02rem;
+}
+
+.m-x {
+  height: 22px;
+  width: 22px;
+  cursor: pointer;
+}
+
+.m-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.m-right h3 {
+  font-size: 1.1rem;
+  font-family: "Manrope";
+  color: #424242;
+  font-weight: bold;
+  letter-spacing: 0.02rem;
+  line-height: 170%;
+  margin-bottom: 0.25rem;
+}
+
+.m-right p {
+  font-size: 1rem;
+  font-family: "Manrope";
+  color: #424242;
+  line-height: 170%;
+  letter-spacing: 0.02rem;
+}
+
+.m-margin {
+  margin-top: 1rem;
+}
+
+/********* Modal Media Query ********/
+@media (max-width: 980px) {
+  .m-bottom {
+    flex-direction: column;
+  }
+  .m-left {
+    width: 100%;
+    margin: 0 0 2rem 0;
+  }
+  .m-card {
+    height: 95vh;
+    top: 2.5vh;
+  }
+}
+
+/********* Contact ********/
+.contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 6rem 8vw;
+  background-color: #263238;
+  color: white;
+}
+
+.contact-left {
+  margin-right: 3rem;
+}
+
+.contact h1 {
+  font-size: 2rem;
+  font-family: "Neue Plak";
+  font-weight: normal;
+  letter-spacing: 0.04rem;
+  margin-bottom: 1.25rem;
+  line-height: 120%;
+}
+
+.contact p {
+  font-size: 1rem;
+  font-family: "Manrope";
+  letter-spacing: 0.02rem;
+  line-height: 170%;
+  margin-bottom: 1.25rem;
+}
+
+.steps-graphic {
+  height: 150px;
+  width: 550px;
+  object-fit: contain;
+}
+
+.button-blue {
+  display: flex;
+  background-color: #BBDEFB;
+  height: 45px;
+  width: 225px;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.button-blue p {
+  display: flex;
+  margin: auto;
+  font-size: 0.8rem;
+  font-family: "NB International Mono";
+  color: black;
+  text-transform: uppercase;
+}
+
+/********* Contact Media Query ********/
+@media (max-width: 980px) {
+  .contact {
+    flex-direction: column;
+  }
+  .contact-left {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .steps-graphic {
+    width: 100%; 
+    height: 100%;
+  }
+}
