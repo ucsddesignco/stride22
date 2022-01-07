@@ -1,0 +1,8 @@
+footer {
+    padding: 2rem 6vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Manrope';
+    font-size: 1.1rem;
+}

@@ -1,0 +1,40 @@
+nav {
+    height: 14vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 6vw;
+}
+
+nav > img {
+    height: 1.8rem;
+}
+
+nav > ul {
+    display: flex;
+    list-style: none;
+    font-family: 'Manrope';
+}
+
+nav > ul > li {
+    text-decoration: none;
+    margin-left: 2.6rem;
+}
+
+nav > ul > li > a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #313131;
+}
+
+nav > ul > li > a:hover {
+
+}
+
+#contact-button {
+    background-color: #313131;
+    padding: 1rem;
+    color: #fff;
+    font-family: 'NB International Mono';
+    font-size: 0.8rem;
+}

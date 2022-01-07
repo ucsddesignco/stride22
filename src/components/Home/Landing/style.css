@@ -1,0 +1,34 @@
+.landing {
+    padding: 0 10vw;
+    display: flex;
+    align-items: center;
+    font-family: 'Neue Plak';
+}
+
+
+.landing__content {
+    width: 50%;
+}
+
+.landing__content > h2 {
+    margin-top: 1rem;
+}
+
+.landing__content > p {
+    margin: 1rem 0 1.5rem 0;
+    line-height: 160%;
+    font-size: 1.1rem;
+    font-family: 'Manrope';
+}
+
+.landing__content > a {
+    font-family: 'NB International Mono';
+    font-size: 0.8rem;
+    background-color: #fdd34e;
+    padding: 1rem;
+}
+
+.landing > img {
+    padding: 3rem 0 5rem 3rem;
+    width: 45%;
+}

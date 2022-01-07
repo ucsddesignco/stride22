@@ -1,11 +1,17 @@
 import '../App.css';
-import Navbar from '../components/Home/Navbar';
+import Footer from '../components/Footer';
+import Landing from '../components/Home/Landing';
+import Sponsors from '../components/Home/Sponsor';
+import Navbar from '../components/Navbar';
 
 function Home() {
   return (
-      <div>
-            <Navbar></Navbar>
-      </div>
+    <div>
+      <Navbar></Navbar>
+      <Landing></Landing>
+      <Sponsors></Sponsors>
+      <Footer></Footer>
+    </div>
     
   );
 }

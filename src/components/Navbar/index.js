@@ -1,8 +1,12 @@
-import '../../App.css';
+import React from 'react'
+import StrideLogo from '../../assets/stride-logo.svg';
+
+import './style.css'
 
 function Navbar() {
   return (
-      <div>
+      <nav>
+          <img src={StrideLogo} alt="Stride Logo"/>
           <ul>
               <li>
                   <a href="/">Home</a>
@@ -13,8 +17,11 @@ function Navbar() {
               <li>
                   <a href="/companies">Companies</a>
               </li>
+              <li>
+                  <a href="/companies" id="contact-button">CONTACT US</a>
+              </li>
           </ul>
-      </div>
+      </nav>
     
   );
 }

@@ -1,0 +1,40 @@
+.sponsors {
+    background-color: #bbdefb;
+    padding: 6rem 10vw;
+}
+
+.sponsors__header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.sponsors__header > h1 {
+    font-size: 2rem;
+    font-family: 'Neue Plak';
+    margin-bottom: 2rem;
+}
+
+.sponsors__header > a {
+    font-size: 1.6rem;
+    font-family: 'Neue Plak';
+    margin-bottom: 2rem;
+}
+
+.sponsors__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 4rem;
+}
+
+.sponsors__card {
+    background-color: #fff;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sponsors__card > img {
+    width: 140px;
+}
