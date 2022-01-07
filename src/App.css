@@ -318,3 +318,71 @@ body {
     height: 100%;
   }
 }
+/********* ABOUT ********/
+.about-section1, .about-section2, .about-section3 {
+  padding: 5rem 10vw;
+}
+
+.about h1 {
+  font-family: "Neue Plak";
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.about h2 {
+  font-family: "Neue Plak";
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  font-family: "Manrope";
+  font-size: 1.125rem;
+  line-height: 170%;
+}
+
+.about-section1 p {
+  margin-bottom: 2rem;
+}
+
+.about-section2 {
+  background-color: #BBDEFB;
+}
+
+.about-section2 h2 {
+  margin-bottom: 2.5rem;
+}
+
+.qa {
+  margin-bottom: 1.25rem;
+}
+
+.about a {
+  color: black;
+}
+
+.about-section3 {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .about-section1, .about-section2, .about-section3 {
+    padding: 4rem 6vw;
+  }
+
+  .about h1 {
+    font-size: 1.75rem;
+  }
+
+  .about h2 {
+    font-size: 1.25rem;
+  }
+
+  .about p {
+    font-size: 0.9rem;
+  }
+
+  .about-section3 h2 {
+    margin-bottom: 2rem;
+  }
+}
