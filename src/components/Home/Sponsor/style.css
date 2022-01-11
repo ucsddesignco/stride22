@@ -1,6 +1,6 @@
 .sponsors {
     background-color: #bbdefb;
-    padding: 6rem 10vw;
+    padding: 6rem 8vw;
 }
 
 .sponsors__header {
@@ -16,25 +16,41 @@
 }
 
 .sponsors__header > a {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-family: 'Neue Plak';
     margin-bottom: 2rem;
+    text-decoration: none;
+    color: #000;
 }
 
 .sponsors__list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 4rem;
+    gap: 2rem;
 }
 
-.sponsors__card {
-    background-color: #fff;
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.sponsors .attending-card {
+    margin: 1.2rem;
 }
 
-.sponsors__card > img {
-    width: 140px;
+.sponsors__list > .attending-card > img {
+    width: 80%;
+}
+
+@media screen and (max-width: 1024px) {
+    .sponsors {
+        padding: 6rem 3.4rem;
+    }
+    .sponsors__header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .sponsors__header > h1 {
+        margin-bottom: 1rem;
+    }
+    .sponsors__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+    }
 }

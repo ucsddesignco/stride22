@@ -1,9 +1,8 @@
 nav {
-    height: 14vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 6vw;
+    padding: 8vh 6vw 0vh 6vw;
 }
 
 nav > img {
@@ -19,6 +18,7 @@ nav > ul {
 nav > ul > li {
     text-decoration: none;
     margin-left: 2.6rem;
+    position: relative;
 }
 
 nav > ul > li > a {
@@ -27,8 +27,15 @@ nav > ul > li > a {
     color: #313131;
 }
 
-nav > ul > li > a:hover {
-
+nav > ul > li > a:hover::after {
+    color: #aaa;
+    position: absolute;
+    width: 4px;
+    height: 2px;
+    top: 0;
+    right: -10px;
+    bottom: 0;
+    content: "";
 }
 
 #contact-button {
@@ -37,4 +44,26 @@ nav > ul > li > a:hover {
     color: #fff;
     font-family: 'NB International Mono';
     font-size: 0.8rem;
+}
+
+@media screen and (max-width: 1024px) {
+    nav {
+        flex-direction: column;
+        height: 8vh;
+        padding-top: 3rem;
+    }
+
+    nav > img {
+        height: 1.6rem;
+    }
+
+    nav > ul > li > a {
+        font-size: 0.9rem;
+        text-decoration: none;
+        color: #313131;
+    }
+
+    #contact-button {
+        display: none;
+    }
 }

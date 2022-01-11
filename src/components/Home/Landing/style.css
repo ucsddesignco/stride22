@@ -1,5 +1,6 @@
 .landing {
-    padding: 0 10vw;
+    padding: 0 8vw;
+    height: 90vh;
     display: flex;
     align-items: center;
     font-family: 'Neue Plak';
@@ -31,4 +32,14 @@
 .landing > img {
     padding: 3rem 0 5rem 3rem;
     width: 45%;
+}
+
+@media screen and (max-width: 1000px) {
+    .landing {
+        flex-direction: column;
+        padding: 3.4rem;
+    }
+    .landing__content {
+        width: 100%;
+    }
 }
