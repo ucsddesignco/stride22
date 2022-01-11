@@ -1,29 +1,58 @@
-import React from 'react'
-import StrideLogo from '../../../assets/stride-logo.svg';
+import React, { useState } from 'react'
+import { Grid } from "@material-ui/core";
+import Modal from '../../Companies/Modal';
+import { CompanyItems } from '../../Companies/CompanyItems';
+import cross from "../../../assets/images/cross.svg";
 
 import './style.css'
 
 function Sponsors() {
+    const [showModal, setShowModal] = useState(false);
+    const [index, setIndex] = useState(-1)
+
+    const hideModal = () => {
+        setShowModal(false);
+    };
+
+    const display = (value) => {
+        setIndex(value);
+        setShowModal(true);
+    }
+
     return (
         <section className="sponsors">
             <div className="sponsors__header">
                 <h1>Top Sponsors</h1>
-                <a>View all attending companies ⟶</a>
+                <a href="/companies">View all attending companies ⟶</a>
             </div>
-            <div className="sponsors__list">
-                <div className="sponsors__card">
-                    <img src={StrideLogo}/>
-                </div>
-                <div className="sponsors__card">
-                    <img src={StrideLogo}/>
-                </div>
-                <div className="sponsors__card">
-                    <img src={StrideLogo}/>
-                </div>
-                <div className="sponsors__card">
-                    <img src={StrideLogo}/>
-                </div>
-            </div>
+            {/* <div className="sponsors__list">
+                {CompanyItems.map((company, index) => {
+                    return(
+                        <div className="attending-card">
+                            <img src={cross} alt="" className="cross-image" />
+                            <img src={require(`../../../assets/images/companies/${company.image}`)} className="attending-image" />
+                        </div>
+                    );
+                })}
+            </div> */}
+            <Grid container justifyContent="">
+                {CompanyItems.map((company, index) => {
+                    if (index < 4)
+                        return(
+                            <Grid item xs={12} sm={6} md={3} onClick={() => display(index)}>
+                                <div className="attending-card">
+                                    <img src={cross} alt="" className="cross-image" />
+                                    <img src={require(`../../../assets/images/companies/${company.image}`)} className="attending-image" />
+                                </div>
+                            </Grid>
+                        );
+                })}
+            </Grid>
+            <Modal
+                show={showModal}
+                onHide={hideModal}
+                index={index}
+            />
         </section>
     )
 }
