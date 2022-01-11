@@ -34,12 +34,25 @@
     width: 45%;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
     .landing {
         flex-direction: column;
-        padding: 3.4rem;
+        height: auto;
+        padding: 3.4rem 2rem;
     }
     .landing__content {
+        width: 100%;
+    }
+    .landing__content > p {
+        font-size: 92%;
+    }
+    .landing > img {
+        padding: 3rem 0 0 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .landing > img {
         width: 100%;
     }
 }
