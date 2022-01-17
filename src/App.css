@@ -323,6 +323,16 @@ body {
   padding: 5rem 10vw;
 }
 
+.big-photo {
+  display: block;
+  width: 30vw;
+}
+
+.small-photo {
+  height: 12vw;
+  margin-bottom: 1.5rem;
+}
+
 .about h1 {
   font-family: "Neue Plak";
   font-size: 2rem;
@@ -346,7 +356,8 @@ body {
 }
 
 .about-section2 {
-  background-color: #BBDEFB;
+  background-color: #263238;
+  color: #fff;
 }
 
 .about-section2 h2 {
@@ -358,16 +369,34 @@ body {
 }
 
 .about a {
-  color: black;
+  color: #fff;
 }
 
 .about-section3 {
   text-align: center;
 }
 
+.big-photo-mobile {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .about-section1, .about-section2, .about-section3 {
     padding: 4rem 6vw;
+  }
+
+  .big-photo {
+    display: none;
+  }
+
+  .big-photo-mobile {
+    display: block;
+    width: 80vw;
+  }
+
+  .small-photo {
+    height: 25vw;
+    margin-bottom: 1rem;
   }
 
   .about h1 {
@@ -383,6 +412,6 @@ body {
   }
 
   .about-section3 h2 {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
   }
 }
