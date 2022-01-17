@@ -323,6 +323,10 @@ body {
   padding: 5rem 10vw;
 }
 
+.about-header {
+  margin-bottom: 2rem !important;
+}
+
 .big-photo {
   display: block;
   width: 30vw;

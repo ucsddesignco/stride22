@@ -18,7 +18,10 @@ function About() {
                 <img src={BigPhoto} className="big-photo" />
               </Col>
               <Col md={6} xs={12}>
-                <h1>About</h1>
+                <h2 className="about-header">
+                  Stride 2022 will be held virtually over Zoom to ensure the safety of our 
+                  community and guests.
+                </h2>
                 <h2>Uplifting Student Designers</h2>
                 <p>
                   Stride is a uniquely design-forward career fair aiming to connect 
@@ -45,7 +48,7 @@ function About() {
             <div className="qa">
               <p><b>Q: When is Stride?</b></p>
               <p>
-                <b>A:</b> Stride takes place on Wednesday, February 5th, 2022. It will be 
+                <b>A:</b> Stride takes place on Saturday, February 5th, 2022. It will be 
                 from 9am-2pm with a break from 11am-12pm. <b>This year, Stride will be a completely 
                 virtual event held over Zoom.</b>
               </p>
