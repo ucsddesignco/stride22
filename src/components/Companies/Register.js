@@ -1,5 +1,5 @@
 import '../../App.css';
-import MainGraphic from "../../assets/images/register.png";
+import MainGraphic from "../../assets/images/companies.svg";
 
 function Register() {
   return (
