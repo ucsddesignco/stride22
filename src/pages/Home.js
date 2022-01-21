@@ -9,8 +9,8 @@ function Home() {
   return (
     <div>
       <div className="tape">
-        <motion.p initial={{x:'-150vw'}} animate={{x:'0'}} transition={{duration: 16, ease: 'linear', repeat: 'Infinity'}} >
-          Stride Will Be online this year | Stride Will Be online this year | Stride Will Be online this year | Stride Will Be online this year | Stride Will Be online this year | Stride Will Be online this year | Stride Will Be online this year | 
+        <motion.p initial={{x:'-2000px'}} animate={{x:'0'}} transition={{duration: 16, ease: 'linear', repeat: 'Infinity'}} >
+          Stride Will Be online this year | Stride Will Be online this year | Stride Will Be online this year | Stride Will Be online this year | Stride Will Be online this year | Stride Will Be online this year | Stride Will Be online this year | Stride Will Be online this year | Stride Will Be online this year | Stride Will Be online this year | Stride Will Be online this year | Stride Will Be online this year | Stride Will Be online this year | Stride Will Be online this year | 
         </motion.p>
       </div>
       <Navbar></Navbar>
