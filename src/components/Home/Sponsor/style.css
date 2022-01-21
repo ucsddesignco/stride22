@@ -24,6 +24,12 @@
     color: #fff;
 }
 
+.sponsors > p {
+    font-size: 1.4rem;
+    font-family: 'Neue Plak';
+    text-align: center;
+}
+
 .sponsors__list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;

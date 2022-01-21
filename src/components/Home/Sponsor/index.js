@@ -25,16 +25,6 @@ function Sponsors() {
                 <h1>Top Sponsors</h1>
                 <a href="/companies">View all attending companies ⟶</a>
             </div>
-            {/* <div className="sponsors__list">
-                {CompanyItems.map((company, index) => {
-                    return(
-                        <div className="attending-card">
-                            <img src={cross} alt="" className="cross-image" />
-                            <img src={require(`../../../assets/images/companies/${company.image}`)} className="attending-image" />
-                        </div>
-                    );
-                })}
-            </div> */}
             <Grid container justifyContent="">
                 {CompanyItems.map((company, index) => {
                     if (index < 4)
@@ -53,6 +43,7 @@ function Sponsors() {
                 onHide={hideModal}
                 index={index}
             />
+            <p>and more!</p>
         </section>
     )
 }
