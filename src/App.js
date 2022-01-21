@@ -14,7 +14,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <link rel="icon" href="../public/favicon.ico" type="image/*" />
+        <link rel="icon" href="./assets/images/favicon.ico" type="image/*" />
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/home" element={<Home />} />
