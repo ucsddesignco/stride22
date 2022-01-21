@@ -85,10 +85,13 @@ body {
 /********* Register Media Query ********/
 @media (max-width: 980px) {
   .register {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .register-left {
     margin-right: 0;
+  }
+  .register-graphic {
+    margin-bottom: 2rem;
   }
 }
 
@@ -430,7 +433,7 @@ body {
 }
 
 .tape p {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   font-family: "NB International Mono";
   color: black;
   position: absolute;
