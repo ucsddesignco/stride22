@@ -104,7 +104,7 @@ function About() {
             <Row>
               <Col md={4} xs={12}>
                   <img src={SmallPhoto1} className="small-photo" />
-                  <h2>Arrive between<br />11AM - 3:45PM</h2>
+                  <h2>Arrive between<br />9AM - 2PM</h2>
               </Col>
               <Col md={4} xs={12}>
                 <img src={SmallPhoto2} className="small-photo" />
