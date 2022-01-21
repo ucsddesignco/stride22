@@ -68,7 +68,7 @@ function About() {
                 be assigned to breakout rooms on a first come first serve basis. Be sure 
                 to sign up and secure your spot through our&nbsp;
                 <a href="" target="_blank">registration form</a> 
-                &nbsp;by Sunday, 1/30.
+                &nbsp;by Tuesday, 2/1.
               </p>
             </div>
             <div className="qa">
