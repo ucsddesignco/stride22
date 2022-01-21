@@ -4,6 +4,7 @@
     display: flex;
     align-items: center;
     font-family: 'Neue Plak';
+    color: #263238;
 }
 
 
@@ -24,13 +25,20 @@
 
 .landing__content > a {
     font-family: 'NB International Mono';
+    text-decoration: none;
     font-size: 0.8rem;
-    background-color: #fdd34e;
+    color: #263238;
+    background-color: #EEFF41;
+    border: solid #263238 2px;
     padding: 1rem;
 }
 
+.landing__content > a:hover {
+    cursor: pointer;
+}
+
 .landing > img {
-    padding: 3rem 0 5rem 3rem;
+    padding: 3rem 5rem 5rem 0;
     width: 45%;
 }
 
@@ -47,7 +55,7 @@
         font-size: 92%;
     }
     .landing > img {
-        padding: 3rem 0 0 0;
+        padding: 0 0 2rem 0;
     }
 }
 

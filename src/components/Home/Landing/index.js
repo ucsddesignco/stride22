@@ -1,19 +1,18 @@
 import React from 'react'
-import LandingImage from '../../../assets/landing.png'
+import LandingImage from '../../../assets/images/home/home1.svg'
 
 import './style.css'
 
 function Landing() {
     return (
         <div className="landing">
+            <img src={LandingImage} alt="Landing Page Hero Image"></img>
             <div className="landing__content">
                 <h1>Stride Micro Design Career Fair</h1>
-                <h2>January 14th, 2020<br/>11AM - 4PM (Doors close 3:45PM)</h2>
-                <h2>PC East Ballroom</h2>
-                <p>Stride connects top design students to career opportunities in the fields of human-centered design, human factors, user research, user experience, interaction design, UI design, visual design, content strategy, product development, brand design, product design, UX engineering, web development, and much more.</p>
-                <a>REGISTER YOUR COMPANY</a>
+                <h2>February 5th, 2022<br/>9-11AM, 12-2PM</h2>
+                <p>Stride strives to offer our top design students the opportunity to begin building long-term relationships with professionals in the field(s) of human-centered design, human factors, user research, user experience, interaction design, UI design, visual design, content strategy, product development, brand design, product design, UX engineering, web development, and much more.</p>
+                <a href="">APPLY NOW</a>
             </div>
-            <img src={LandingImage} alt="Landing Page Hero Image"></img>
         </div>
     )
 }

@@ -5,6 +5,11 @@ footer {
     justify-content: space-between;
     font-family: 'Manrope';
     font-size: 1.1rem;
+    color: #263238;
+}
+
+footer a {
+    color: #263238;
 }
 
 @media screen and (max-width: 1024px) {

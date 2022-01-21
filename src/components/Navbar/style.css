@@ -6,7 +6,7 @@ nav {
 }
 
 nav > img {
-    height: 1.8rem;
+    height: 3rem;
 }
 
 nav > ul {
@@ -18,28 +18,16 @@ nav > ul {
 nav > ul > li {
     text-decoration: none;
     margin-left: 2.6rem;
-    position: relative;
 }
 
 nav > ul > li > a {
     font-size: 1.2rem;
     text-decoration: none;
-    color: #313131;
-}
-
-nav > ul > li > a:hover::after {
-    color: #aaa;
-    position: absolute;
-    width: 4px;
-    height: 2px;
-    top: 0;
-    right: -10px;
-    bottom: 0;
-    content: "";
+    color: #263238;
 }
 
 #contact-button {
-    background-color: #313131;
+    background-color: #263238;
     padding: 1rem;
     color: #fff;
     font-family: 'NB International Mono';
@@ -54,7 +42,11 @@ nav > ul > li > a:hover::after {
     }
 
     nav > img {
-        height: 1.6rem;
+        height: 2rem;
+    }
+
+    nav > ul > li {
+        margin-left: 2rem;
     }
 
     nav > ul > li > a {
@@ -65,5 +57,14 @@ nav > ul > li > a:hover::after {
 
     #contact-button {
         display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    nav > ul > li {
+        margin-left: 1rem;
+    }
+    nav > ul > li > a {
+        font-size: 0.8rem;
     }
 }

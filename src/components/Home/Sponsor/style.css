@@ -1,6 +1,7 @@
 .sponsors {
-    background-color: #bbdefb;
+    background-color: #263238;
     padding: 6rem 8vw;
+    color: #fff;
 }
 
 .sponsors__header {
@@ -20,7 +21,7 @@
     font-family: 'Neue Plak';
     margin-bottom: 2rem;
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
 
 .sponsors__list {
