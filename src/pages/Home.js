@@ -9,7 +9,7 @@ function Home() {
   return (
     <div>
       <div className="tape">
-        <motion.p initial={{x:'-150vw'}} animate={{x:'0'}} transition={{duration: 6, ease: 'linear', repeat: 'Infinity'}} >
+        <motion.p initial={{x:'-150vw'}} animate={{x:'0'}} transition={{duration: 16, ease: 'linear', repeat: 'Infinity'}} >
           Stride Will Be online this year | Stride Will Be online this year | Stride Will Be online this year | Stride Will Be online this year | Stride Will Be online this year | Stride Will Be online this year | Stride Will Be online this year | 
         </motion.p>
       </div>
