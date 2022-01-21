@@ -20,9 +20,9 @@ function Navbar() {
               <li>
                   <a href="https://docs.google.com/presentation/d/159kEktP6bRSRWa0fG8Jxyl-CeiORcMJOUuwuvou8oZY/edit?usp=sharing" target="_blank">Prepping for Stride</a>
               </li>
-              <li>
+              {/* <li>
                   <a href="/companies" id="contact-button">CONTACT US</a>
-              </li>
+              </li> */}
           </ul>
       </nav>
     
