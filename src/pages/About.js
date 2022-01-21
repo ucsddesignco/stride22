@@ -13,7 +13,7 @@ function About() {
       <Navbar/>
         <div className="about">
           <div className="about-section1">
-            <Row justify="center" align="center">
+            <Row>
               <Col md={6} xs={0}>
                 <img src={BigPhoto} className="big-photo" />
               </Col>
