@@ -107,8 +107,8 @@ body {
   display: flex;
   flex-direction: column;
   padding: 6rem 5vw;
-  background-color: #BBDEFB;
-  color: black;
+  background-color: #263238;
+  color: white;
 }
 
 .attending h1 {
