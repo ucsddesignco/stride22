@@ -11,7 +11,6 @@ function Companies() {
           <Navbar/>
           <Register />
           <Attending />
-          <Contact />
           <Footer />
       </div>
     

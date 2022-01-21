@@ -1,5 +1,5 @@
 import '../../App.css';
-import MainGraphic from "../../assets/images/register.png";
+import MainGraphic from "../../assets/images/companies.svg";
 
 function Register() {
   return (
@@ -7,10 +7,11 @@ function Register() {
             <div className="register-left">
                 <h1>Companies</h1>
                 <p>
-                    Our attending companies represent multiple industries, 
-                    products, and services. Come to Stride to learn more 
-                    about internship and full-time opportunities at a wide 
-                    range of companies.
+                Our participating companies come from diverse backgrounds, 
+                representing multiple industries, products, and services. 
+                Stop by Stride to connect with professionals and learn more 
+                about internship and full-time opportunities at a wide range 
+                of companies.
                 </p>
                 <p>
                     Looking to recruit top talent? Learn how your company can 

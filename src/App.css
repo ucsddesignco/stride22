@@ -51,10 +51,10 @@ body {
 }
 
 .register p {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-family: "Manrope";
   letter-spacing: 0.02rem;
-  line-height: 170%;
+  line-height: 160%;
   margin-bottom: 1.25rem;
 }
 
@@ -418,4 +418,23 @@ body {
   .about-section3 h2 {
     margin-bottom: 3rem;
   }
+}
+
+/********* Animation ********/
+.tape {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem 0;
+  background-color: #EA80FC;
+}
+
+.tape p {
+  font-size: 1.5rem;
+  font-family: "NB International Mono";
+  color: black;
+  position: absolute;
+  text-transform: uppercase;
+  letter-spacing: 2%;
+  white-space: nowrap;
 }
