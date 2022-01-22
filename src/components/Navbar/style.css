@@ -26,6 +26,18 @@ nav > ul > li > a {
     color: #263238;
 }
 
+.li {
+    margin-left: 2.6rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #263238;
+}
+
+.active {
+    text-decoration: underline #F5D34D;
+    text-underline-offset: 0.2rem;
+}
+
 #contact-button {
     background-color: #263238;
     padding: 1rem;

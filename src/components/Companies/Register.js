@@ -13,13 +13,7 @@ function Register() {
                 about internship and full-time opportunities at a wide range 
                 of companies.
                 </p>
-                <p>
-                    Looking to recruit top talent? Learn how your company can 
-                    participate.
-                </p>
-                <div className="button-yellow">
-                    <p>Register Your Company</p>
-                </div>
+                <p><strong>Registration will open on January 26th. Check back here then!</strong></p>
             </div>
             <img src={MainGraphic} alt="" className='register-graphic' />
         </div>
