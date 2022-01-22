@@ -116,6 +116,12 @@ body {
   color: white;
 }
 
+.attending p {
+  font-size: 1.4rem;
+  font-family: 'Neue Plak';
+  text-align: center;
+}
+
 .attending h1 {
   font-size: 2rem;
   font-family: "Neue Plak";

@@ -34,6 +34,7 @@ function Attending() {
                     );
                 })}
             </Grid>
+            <p>and more!</p>
 
             <Modal
                 show={showModal}

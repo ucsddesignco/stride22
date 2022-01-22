@@ -13,6 +13,7 @@ nav > ul {
     display: flex;
     list-style: none;
     font-family: 'Manrope';
+    align-items: center;
 }
 
 nav > ul > li {
@@ -20,7 +21,13 @@ nav > ul > li {
     margin-left: 2.6rem;
 }
 
-nav > ul > li > a {
+nav > ul > li a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #263238;
+}
+
+nav > ul > li p {
     font-size: 1.2rem;
     text-decoration: none;
     color: #263238;
@@ -61,7 +68,13 @@ nav > ul > li > a {
         margin-left: 2rem;
     }
 
-    nav > ul > li > a {
+    nav > ul > li a {
+        font-size: 0.9rem;
+        text-decoration: none;
+        color: #313131;
+    }
+
+    nav > ul > li p {
         font-size: 0.9rem;
         text-decoration: none;
         color: #313131;
@@ -76,7 +89,11 @@ nav > ul > li > a {
     nav > ul > li {
         margin-left: 1rem;
     }
-    nav > ul > li > a {
+    nav > ul > li a {
         font-size: 0.8rem;
+    }
+    nav > ul > li p {
+        font-size: 0.8rem;
+        transform: translateY(0.06rem);
     }
 }

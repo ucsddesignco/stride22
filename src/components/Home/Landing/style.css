@@ -59,7 +59,13 @@
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 670px) {
+    .landing > img {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 480px) {
     .landing > img {
         width: 100%;
     }
