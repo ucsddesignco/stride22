@@ -10,6 +10,7 @@ function Companies() {
       <div>
           <Navbar/>
           <Register />
+          <Attending />
           <Footer />
       </div>
     

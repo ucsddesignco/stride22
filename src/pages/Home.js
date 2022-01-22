@@ -15,6 +15,7 @@ function Home() {
       </div>
       <Navbar></Navbar>
       <Landing></Landing>
+      <Sponsors></Sponsors>
       <Footer></Footer>
     </div>
     

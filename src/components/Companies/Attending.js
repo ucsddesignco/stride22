@@ -25,9 +25,9 @@ function Attending() {
             <Grid container justifyContent="">
                 {CompanyItems.map((company, index) => {
                     return(
-                        <Grid item xs={12} sm={6} md={4} onClick={() => display(index)}>
+                        <Grid item xs={12} sm={6} md={4} /* onClick={() => display(index)} */>
                             <div className="attending-card">
-                                <img src={cross} alt="" className="cross-image" />
+                                {/* <img src={cross} alt="" className="cross-image" /> */}
                                 <img src={require(`../../assets/images/companies/${company.image}`)} className="attending-image" />
                             </div>
                         </Grid>

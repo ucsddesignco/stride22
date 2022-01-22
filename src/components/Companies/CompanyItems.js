@@ -1,27 +1,6 @@
 export const CompanyItems = 
 [
-  {
-		name: "Intuit",
-    	image: "intuit.png",
-		bio: "Intuit is a mission-driven, global financial platform company that gives everyone the opportunity to prosper. We’re the proud makers of TurboTax, QuickBooks, and Mint. ​Our products and services help more than 50M people around the world put more money in their pockets, with less work and greater confidence. From uncovering data patterns for how wealth is created, to designing conversational interfaces that deliver personalized experiences, we’re putting AI, ML, and an unrivaled set of data to work to help millions of people achieve financial freedom. Advance your skills in an innovative, diverse, and collaborative environment where technology makes an impact worldwide.",
-		roles: [
-			"Product Design Intern",
-			"UX Research Intern",
-			"Content Design Intern",
-			"Product Designer (Entry-Level, Full-Time)",
-		],
-		rolelinks: [
-			"https://app.joinhandshake.com/login",
-			"",
-			"",
-			"",
-		],
-		work: [
-			"US Citizen",
-			"US Permanent Resident",
-		],
-		website: "https://www.intuit.com/",
-    },
+  
 	{
 		name: "Sony",
     	image: "sony.png",
@@ -41,6 +20,42 @@ export const CompanyItems =
 		website: "https://www.sony.com/en/",
 	},
 	{
+		name: "Bloomberg",
+    	image: "bloomberg.png",
+		bio: "Sony’s purpose is simple. We aim to fill the world with emotion, through the power of creativity and technology. We want to be responsible for getting hearts racing, stirring ambition, and putting a smile on the faces of our customers. That challenge, combined with our spirit of innovation, motivates us to create groundbreaking technology, entertainment, and services for people worldwide.",
+		roles: [
+			"Human Factors Intern",
+		],
+		rolelinks: [
+			"https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/San-Diego/Human-Factors-Intern_JR-101821"
+		],
+		work: [
+			"US Citizen",
+			"US Permanent Resident",
+			"DACA",
+			"International Student Visas",
+		],
+		website: "https://www.sony.com/en/",
+	},
+	{
+		name: "Epic",
+    	image: "epic.png",
+		bio: "Sony’s purpose is simple. We aim to fill the world with emotion, through the power of creativity and technology. We want to be responsible for getting hearts racing, stirring ambition, and putting a smile on the faces of our customers. That challenge, combined with our spirit of innovation, motivates us to create groundbreaking technology, entertainment, and services for people worldwide.",
+		roles: [
+			"Human Factors Intern",
+		],
+		rolelinks: [
+			"https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/San-Diego/Human-Factors-Intern_JR-101821"
+		],
+		work: [
+			"US Citizen",
+			"US Permanent Resident",
+			"DACA",
+			"International Student Visas",
+		],
+		website: "https://www.sony.com/en/",
+	},
+	/* {
 		name: "ServiceNow",
 		image: "servicenow.png",
 		bio: "ServiceNow is the fastest-growing enterprise cloud software company in the world above $1 billion (2018 revenue was $2.6 billion, up 36% year over year). We deliver digital workflows that create great experiences and unlock productivity to approximately 5,400 enterprise customers worldwide, including almost 75% of the Fortune 500.",
@@ -68,6 +83,28 @@ export const CompanyItems =
 		],
 		website: "https://www.servicenow.com/",
 	},	
+	{
+		name: "Intuit",
+    	image: "intuit.png",
+		bio: "Intuit is a mission-driven, global financial platform company that gives everyone the opportunity to prosper. We’re the proud makers of TurboTax, QuickBooks, and Mint. ​Our products and services help more than 50M people around the world put more money in their pockets, with less work and greater confidence. From uncovering data patterns for how wealth is created, to designing conversational interfaces that deliver personalized experiences, we’re putting AI, ML, and an unrivaled set of data to work to help millions of people achieve financial freedom. Advance your skills in an innovative, diverse, and collaborative environment where technology makes an impact worldwide.",
+		roles: [
+			"Product Design Intern",
+			"UX Research Intern",
+			"Content Design Intern",
+			"Product Designer (Entry-Level, Full-Time)",
+		],
+		rolelinks: [
+			"https://app.joinhandshake.com/login",
+			"",
+			"",
+			"",
+		],
+		work: [
+			"US Citizen",
+			"US Permanent Resident",
+		],
+		website: "https://www.intuit.com/",
+    },
 	{
 		name: "Atlassian",
     	image: "atlassian.svg",
@@ -108,5 +145,5 @@ export const CompanyItems =
 		],
 		work: [],
 		website: "https://www.atlassian.com/",
-    },
+    }, */
 ]

@@ -29,9 +29,9 @@ function Sponsors() {
                 {CompanyItems.map((company, index) => {
                     if (index < 4)
                         return(
-                            <Grid item xs={12} sm={6} md={3} onClick={() => display(index)}>
+                            <Grid item xs={12} sm={6} md={4} >
                                 <div className="attending-card">
-                                    <img src={cross} alt="" className="cross-image" />
+                                    {/* <img src={cross} alt="" className="cross-image" /> */}
                                     <img src={require(`../../../assets/images/companies/${company.image}`)} className="attending-image" />
                                 </div>
                             </Grid>
