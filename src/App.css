@@ -28,6 +28,10 @@ body {
 }
 
 /********* Register ********/
+.main {
+  overflow-x: hidden;
+}
+
 .register {
   display: flex;
   flex-direction: row;

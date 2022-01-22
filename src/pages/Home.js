@@ -7,7 +7,7 @@ import {motion} from 'framer-motion'
 
 function Home() {
   return (
-    <div>
+    <div className='main'>
       <div className="tape">
         <motion.p initial={{x:'-2000px'}} animate={{x:'0'}} transition={{duration: 16, ease: 'linear', repeat: 'Infinity'}} >
           Stride Will Be online this year | Stride Will Be online this year | Stride Will Be online this year | Stride Will Be online this year | Stride Will Be online this year | Stride Will Be online this year | Stride Will Be online this year | Stride Will Be online this year | Stride Will Be online this year | Stride Will Be online this year | Stride Will Be online this year | Stride Will Be online this year | Stride Will Be online this year | Stride Will Be online this year | 
