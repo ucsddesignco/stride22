@@ -434,6 +434,8 @@ body {
   align-items: center;
   padding: 1rem 0;
   background-color: #EA80FC;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 .tape p {
