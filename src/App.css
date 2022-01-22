@@ -29,6 +29,7 @@ body {
 
 /********* Register ********/
 .main {
+  position: relative;
   overflow-x: hidden;
 }
 
@@ -428,6 +429,7 @@ body {
 
 /********* Animation ********/
 .tape {
+  position: relative;
   display: flex;
   flex-direction: row;
   align-items: center;
