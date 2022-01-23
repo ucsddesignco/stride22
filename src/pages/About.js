@@ -99,6 +99,13 @@ function About() {
                 portfolio and being able to talk about some of your past projects.
               </p>
             </div>
+            <div className="qa">
+              <p><b>Q: Where can I access the Zoom link?</b></p>
+              <p>
+                <b>A:</b> Only registrants will receive access to the Stride Zoom link. After 
+                you register, we will send the Zoom link to your preferred email.
+              </p>
+            </div>
           </div>
           <div className="about-section3">
             <Row>
