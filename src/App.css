@@ -104,6 +104,25 @@ body {
   .register-graphic {
     width: 100%; 
     height: 100%;
+    order: 1;
+    margin-top: 2rem;
+    margin-bottom: 0;
+  }
+
+  .register-left {
+    order: 2;
+  }
+
+  .register h1 {
+    font-size: 1.75rem;
+  }
+
+  .register p {
+    font-size: 0.9rem;
+  }
+
+  .register {
+    padding: 4rem 6vw;
   }
 }
 
@@ -152,6 +171,16 @@ body {
   height: 12px;
   width: 12px;
   transform: rotate(135deg) translateX(2rem);
+}
+
+@media (max-width: 768px) {
+  .attending {
+    padding: 4rem 6vw;
+  }
+
+  .attending h1 {
+    font-size: 1.75rem;
+  }
 }
 
 /********* Attending Modal ********/
@@ -416,11 +445,11 @@ body {
     margin-bottom: 1rem;
   }
 
-  .about h1 {
+  .about h1, h1 {
     font-size: 1.75rem;
   }
 
-  .about h2 {
+  .about h2, h2 {
     font-size: 1.25rem;
   }
 

@@ -46,13 +46,13 @@
     .landing {
         flex-direction: column;
         height: auto;
-        padding: 3.4rem 2rem;
+        padding: 4rem 6vw;
     }
     .landing__content {
         width: 100%;
     }
     .landing__content > p {
-        font-size: 92%;
+        font-size: 0.9rem;
     }
     .landing > img {
         padding: 0 0 2rem 0;

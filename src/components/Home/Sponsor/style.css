@@ -51,7 +51,7 @@
 
 @media screen and (max-width: 1024px) {
     .sponsors {
-        padding: 6rem 3.4rem;
+        padding: 4rem 6vw;
     }
     .sponsors__header {
         flex-direction: column;

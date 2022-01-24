@@ -90,10 +90,10 @@ nav > ul > li p {
         margin-left: 1rem;
     }
     nav > ul > li a {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
     nav > ul > li p {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         transform: translateY(0.06rem);
     }
 }
