@@ -67,7 +67,7 @@ function About() {
                 number of recruiters and time with each one (~15 min), so students will 
                 be assigned to breakout rooms on a first come first serve basis. Be sure 
                 to sign up and secure your spot through our&nbsp;
-                <a href="" target="_blank">registration form</a> 
+                <a href="https://forms.gle/d93Fwtk5bCEfZdcp9" target="_blank">registration form</a> 
                 &nbsp;by Tuesday, 2/1.
               </p>
             </div>
