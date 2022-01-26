@@ -94,6 +94,6 @@ nav > ul > li p {
     }
     nav > ul > li p {
         font-size: 0.7rem;
-        transform: translateY(0.06rem);
+        transform: translateY(0.1rem);
     }
 }
