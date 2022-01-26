@@ -46,6 +46,17 @@ export const CompanyItems =
 		work: [],
 		website: "https://seismic.com/",
 	},
+	{
+		name: "Yahoo",
+    	image: "yahoo.png",
+		bio: "Yahoo! 's vision is to be the center of people's online lives by delivering personally relevant, meaningful internet experiences. As a leader in global daily habits like email, entertainment, news and sports, we strive to inspire, delight and entertain. By infusing our products with beauty and personality driven by our users, every Yahoo experience feels made to order.",
+		roles: [
+			
+		],
+		rolelinks: [],
+		work: [],
+		website: "https://seismic.com/",
+	},
 	
 	/* {
 		name: "ServiceNow",
