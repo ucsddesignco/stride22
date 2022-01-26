@@ -11,8 +11,7 @@ function Landing() {
                 <h1>Stride Micro Design Career Fair</h1>
                 <h2>February 5th, 2022<br/>9-11AM, 12-2PM</h2>
                 <p>Stride strives to offer our top design students the opportunity to begin building long-term relationships with professionals in the field(s) of human-centered design, human factors, user research, user experience, interaction design, UI design, visual design, content strategy, product development, brand design, product design, UX engineering, web development, and much more.</p>
-                <p><strong>Registration will open on January 26th. Check back here then!</strong></p>
-                {/* <a href="">APPLY NOW</a> */}
+                <a href="https://forms.gle/d93Fwtk5bCEfZdcp9" target="_blank">REGISTER NOW</a>
             </div>
         </div>
     )

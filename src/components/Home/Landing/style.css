@@ -1,5 +1,5 @@
 .landing {
-    padding: 0 8vw;
+    padding: 0 8vw 2rem;
     height: 90vh;
     display: flex;
     align-items: center;
@@ -30,7 +30,7 @@
     color: #263238;
     background-color: #EEFF41;
     border: solid #263238 2px;
-    padding: 1rem;
+    padding: 1rem 3rem;
 }
 
 .landing__content > a:hover {

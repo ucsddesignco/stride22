@@ -35,6 +35,18 @@ export const CompanyItems =
 		work: [],
 		website: "https://www.epic.com/ ",
 	},
+	{
+		name: "Seismic",
+    	image: "seismic.svg",
+		bio: "Seismic helps marketing and sales teams fulfill their promise to drive revenue together. Founded in 2010, Seismic has quickly grown to become the global leader in sales enablement. Today, you can find teams using Seismic to increase sales performance and marketing efficiency in more than 50 countries. The world’s largest B2B companies rely on Seismic to ensure that their globally distributed sales and partner teams have access to the right sales content at the right time.",
+		roles: [
+			
+		],
+		rolelinks: [],
+		work: [],
+		website: "https://seismic.com/",
+	},
+	
 	/* {
 		name: "ServiceNow",
 		image: "servicenow.png",

@@ -13,7 +13,11 @@ function Register() {
                 about internship and full-time opportunities at a wide range 
                 of companies.
                 </p>
-                <p><strong>Registration will open on January 26th. Check back here then!</strong></p>
+                <a href="https://forms.gle/d93Fwtk5bCEfZdcp9" target="_blank" >
+                <div className="button-yellow">
+                  <p>Register Now</p>
+                </div>
+                </a>
             </div>
             <img src={MainGraphic} alt="" className='register-graphic' />
         </div>
