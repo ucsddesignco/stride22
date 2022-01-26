@@ -27,9 +27,9 @@ function Navbar() {
               <li>
                   <a href="https://docs.google.com/presentation/d/159kEktP6bRSRWa0fG8Jxyl-CeiORcMJOUuwuvou8oZY/edit?usp=sharing" target="_blank">Prepping for Stride</a>
               </li>
-              {/* <li>
-                  <a href="/companies" id="contact-button">CONTACT US</a>
-              </li> */}
+              <li>
+                  <a href="https://forms.gle/d93Fwtk5bCEfZdcp9" id="contact-button" target="_blank">REGISTER</a>
+              </li>
           </ul>
       </nav>
     
