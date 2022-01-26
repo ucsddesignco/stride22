@@ -155,6 +155,7 @@ body {
   justify-content: flex-end;
   background-color: white;
   margin: 3vw;
+  cursor: pointer;
 }
 
 .attending-image {
@@ -199,11 +200,10 @@ body {
   flex-direction: column;
   position: fixed;
   background-color: white;
-  height: 85vh;
-  width: 90vw;
-  top: 7.5vh;
-  left: 5vw;
-  overflow-y: scroll;
+  height: 80vh;
+  width: 80vw;
+  top: 10vh;
+  left: 10vw;
 }
 
 .m-top {
@@ -225,11 +225,11 @@ body {
 .m-bottom {
   display: flex;
   flex-direction: row;
-  margin: 1.25rem 2.5rem 2.5rem;
+  margin: 1.5rem 2.5rem 2.5rem;
 }
 
 .m-left {
-  width: 50vw;
+  width: 45vw;
   margin-right: 4rem;
 }
 
@@ -239,6 +239,7 @@ body {
   color: #424242;
   line-height: 170%;
   letter-spacing: 0.02rem;
+  text-align: left;
 }
 
 .m-x {
@@ -268,6 +269,8 @@ body {
   color: #424242;
   line-height: 170%;
   letter-spacing: 0.02rem;
+  text-align: left;
+  text-decoration: underline #424242;
 }
 
 .m-margin {
@@ -275,7 +278,7 @@ body {
 }
 
 /********* Modal Media Query ********/
-@media (max-width: 980px) {
+@media (max-width: 800px) {
   .m-bottom {
     flex-direction: column;
   }
@@ -286,6 +289,14 @@ body {
   .m-card {
     height: 95vh;
     top: 2.5vh;
+    overflow-y: scroll;
+  }
+}
+
+@media (max-width: 980px) {
+  .m-card {
+    width: 90vw;
+    left: 5vw;
   }
 }
 

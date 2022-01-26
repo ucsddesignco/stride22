@@ -7,7 +7,7 @@ import './style.css'
 function Navbar() {
   return (
       <nav>
-          <img src={StrideLogo} alt="Stride Logo"/>
+          <NavLink to ="/"><img src={StrideLogo} alt="Stride Logo"/></NavLink>
           <ul>
               <li>
                 <NavLink to="/" >

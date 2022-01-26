@@ -6,54 +6,34 @@ export const CompanyItems =
     	image: "sony.png",
 		bio: "Sony’s purpose is simple. We aim to fill the world with emotion, through the power of creativity and technology. We want to be responsible for getting hearts racing, stirring ambition, and putting a smile on the faces of our customers. That challenge, combined with our spirit of innovation, motivates us to create groundbreaking technology, entertainment, and services for people worldwide.",
 		roles: [
-			"Human Factors Intern",
+			
 		],
-		rolelinks: [
-			"https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/San-Diego/Human-Factors-Intern_JR-101821"
-		],
+		rolelinks: [],
 		work: [
-			"US Citizen",
-			"US Permanent Resident",
-			"DACA",
-			"International Student Visas",
 		],
 		website: "https://www.sony.com/en/",
 	},
 	{
 		name: "Bloomberg",
     	image: "bloomberg.png",
-		bio: "Sony’s purpose is simple. We aim to fill the world with emotion, through the power of creativity and technology. We want to be responsible for getting hearts racing, stirring ambition, and putting a smile on the faces of our customers. That challenge, combined with our spirit of innovation, motivates us to create groundbreaking technology, entertainment, and services for people worldwide.",
+		bio: "Bloomberg was born to change the world for the better. It’s there in our products, which started a revolution in financial markets that reverberates to this day. It’s felt by our people, who we invest in through every stage of their careers. And it’s proven by our actions, which harness the resources, skills and profits of our company to transform lives around the world through the power of data.",
 		roles: [
-			"Human Factors Intern",
+			
 		],
-		rolelinks: [
-			"https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/San-Diego/Human-Factors-Intern_JR-101821"
-		],
-		work: [
-			"US Citizen",
-			"US Permanent Resident",
-			"DACA",
-			"International Student Visas",
-		],
-		website: "https://www.sony.com/en/",
+		rolelinks: [],
+		work: [],
+		website: "https://www.bloomberg.com/",
 	},
 	{
 		name: "Epic",
     	image: "epic.png",
-		bio: "Sony’s purpose is simple. We aim to fill the world with emotion, through the power of creativity and technology. We want to be responsible for getting hearts racing, stirring ambition, and putting a smile on the faces of our customers. That challenge, combined with our spirit of innovation, motivates us to create groundbreaking technology, entertainment, and services for people worldwide.",
+		bio: "Founded in a basement in 1979 with 1½ employees, Epic develops software to help people get well, help people stay well, and help future generations be healthier. Today, more than 250 million patients have a current electronic record in Epic, with our software used in medical centers, patients’ homes, and even in their pockets (heard of MyChart?). ",
 		roles: [
-			"Human Factors Intern",
+			
 		],
-		rolelinks: [
-			"https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/San-Diego/Human-Factors-Intern_JR-101821"
-		],
-		work: [
-			"US Citizen",
-			"US Permanent Resident",
-			"DACA",
-			"International Student Visas",
-		],
-		website: "https://www.sony.com/en/",
+		rolelinks: [],
+		work: [],
+		website: "https://www.epic.com/ ",
 	},
 	/* {
 		name: "ServiceNow",

@@ -24,7 +24,7 @@ function Modal(props) {
                                 <p>{company.bio}</p>
                             </div>
                             <div className="m-right">
-                                <h3>Open Roles</h3>
+                                {/* <h3>Open Roles</h3>
                                 {company.roles.map((role, i) => {
                                     if(company.rolelinks[i].length > 0)
                                         return(
@@ -43,8 +43,8 @@ function Modal(props) {
                                     return(
                                         <p>{types}</p>
                                     );
-                                })}
-                                <h3 className="m-margin">Company Site</h3>
+                                })} */}
+                                <h3>Company Site</h3>
                                 <a href={company.website} target="_blank">
                                     <p>
                                         {company.name}
