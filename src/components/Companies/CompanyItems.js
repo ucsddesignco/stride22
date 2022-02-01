@@ -55,7 +55,7 @@ export const CompanyItems =
 		],
 		rolelinks: [],
 		work: [],
-		website: "https://seismic.com/",
+		website: "https://yahooinc.com/",
 	},
 	
 	/* {
