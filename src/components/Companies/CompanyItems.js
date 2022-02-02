@@ -6,9 +6,13 @@ export const CompanyItems =
     	image: "sony.png",
 		bio: "Sony’s purpose is simple. We aim to fill the world with emotion, through the power of creativity and technology. We want to be responsible for getting hearts racing, stirring ambition, and putting a smile on the faces of our customers. That challenge, combined with our spirit of innovation, motivates us to create groundbreaking technology, entertainment, and services for people worldwide.",
 		roles: [
-			
+			"UI Design/Research - Full Time",
+			"UI/UX Intern"
 		],
-		rolelinks: [],
+		rolelinks: [
+			"https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/San-Diego/Accessibility-Human-Factors-Engineering---UI-Design---Research_JR-102290",
+			"https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/San-Diego/Intern---Human-Factors-Engineering-User-Interaction-Design_JR-107894"
+		],
 		work: [
 		],
 		website: "https://www.sony.com/en/",
@@ -29,31 +33,35 @@ export const CompanyItems =
     	image: "epic.png",
 		bio: "Founded in a basement in 1979 with 1½ employees, Epic develops software to help people get well, help people stay well, and help future generations be healthier. Today, more than 250 million patients have a current electronic record in Epic, with our software used in medical centers, patients’ homes, and even in their pockets (heard of MyChart?). ",
 		roles: [
-			
+			"UX Designer"
 		],
-		rolelinks: [],
+		rolelinks: [
+			"https://epic.avature.net/Careers/FolderDetail/User-Experience-Designer/752"
+		],
 		work: [],
 		website: "https://www.epic.com/ ",
 	},
 	{
-		name: "Seismic",
-    	image: "seismic.svg",
-		bio: "Seismic helps marketing and sales teams fulfill their promise to drive revenue together. Founded in 2010, Seismic has quickly grown to become the global leader in sales enablement. Today, you can find teams using Seismic to increase sales performance and marketing efficiency in more than 50 countries. The world’s largest B2B companies rely on Seismic to ensure that their globally distributed sales and partner teams have access to the right sales content at the right time.",
+		name: "SoFi",
+    	image: "sofi.png",
+		bio: "SoFi’s mission is to help people reach financial independence to realize their ambitions. And financial independence doesn’t just mean being rich—it means getting to a point where your money works for the life you want to live. Everything we do is geared toward helping our members get their money right. We’re constantly innovating and building ways to give our members what they need to make that happen.",
 		roles: [
 			
 		],
 		rolelinks: [],
 		work: [],
-		website: "https://seismic.com/",
+		website: "https://www.sofi.com/",
 	},
 	{
 		name: "Yahoo",
     	image: "yahoo.png",
 		bio: "Yahoo! 's vision is to be the center of people's online lives by delivering personally relevant, meaningful internet experiences. As a leader in global daily habits like email, entertainment, news and sports, we strive to inspire, delight and entertain. By infusing our products with beauty and personality driven by our users, every Yahoo experience feels made to order.",
 		roles: [
-			
+			"Design Associate Program - Full Time"
 		],
-		rolelinks: [],
+		rolelinks: [
+			"https://ouryahoo.wd5.myworkdayjobs.com/en-US/careers/job/US---Sunnyvale/Design-Associate-Program_JR0017927?source=Linkedin"
+		],
 		work: [],
 		website: "https://yahooinc.com/",
 	},
