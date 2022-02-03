@@ -22,9 +22,11 @@ export const CompanyItems =
     	image: "bloomberg.png",
 		bio: "Bloomberg was born to change the world for the better. It’s there in our products, which started a revolution in financial markets that reverberates to this day. It’s felt by our people, who we invest in through every stage of their careers. And it’s proven by our actions, which harness the resources, skills and profits of our company to transform lives around the world through the power of data.",
 		roles: [
-			
+			"General Design Roles"
 		],
-		rolelinks: [],
+		rolelinks: [
+			"https://www.bloomberg.com/ux#team"
+		],
 		work: [],
 		website: "https://www.bloomberg.com/",
 	},
@@ -46,9 +48,15 @@ export const CompanyItems =
     	image: "sofi.png",
 		bio: "SoFi’s mission is to help people reach financial independence to realize their ambitions. And financial independence doesn’t just mean being rich—it means getting to a point where your money works for the life you want to live. Everything we do is geared toward helping our members get their money right. We’re constantly innovating and building ways to give our members what they need to make that happen.",
 		roles: [
-			
+			"Product Design Intern",
+			"UX Research Intern",
+			"UX Writer Intern"
 		],
-		rolelinks: [],
+		rolelinks: [
+			"https://www.sofi.com/careers/intern/?gh_jid=4905467003",
+			"https://www.sofi.com/careers/intern/?gh_jid=4920765003",
+			"https://www.sofi.com/careers/intern/?gh_jid=4947596003"
+		],
 		work: [],
 		website: "https://www.sofi.com/",
 	},
